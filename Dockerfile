@@ -1,2 +1,2 @@
-FROM nginx:1.23.2
+FROM nginx:mainline-alpine3.20-perl
 #desc
