@@ -2,7 +2,7 @@
 # Here you will find the Route Tables, Route Table Associations and the IGW Configurations #
 ###########################################################################################
 #
-# Create the IGW
+# Create the IGWe
 #
 resource "aws_internet_gateway" "linux_igw" {
   vpc_id = aws_vpc.linux_vpc.id
