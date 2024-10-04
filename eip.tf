@@ -11,7 +11,7 @@ resource "aws_eip" "linux" {
   associate_with_private_ip = aws_network_interface.linux.private_ip
 }
 
-#
+#eee
 # Create EIP Association with Linux
 #
 resource "aws_eip_association" "management" {
